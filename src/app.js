@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
         name: "Juleeya"
     });
 });
-
+ 
 
 app.get("/about", (req, res) => {
     res.render("about", {
