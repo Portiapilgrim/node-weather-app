@@ -2,7 +2,7 @@ const path = require('path');
 const hbs = require('hbs');
 const express = require("express");
 const weatherData = require("./utils/forecast");
-
+ 
 const app = express();
 
 //Define paths for Express config
